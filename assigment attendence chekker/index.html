@@ -3,14 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>assigment 1</title>
+    <title>Attendance Sheet</title>
+    <link rel="stylesheet" href="style.css">
+   
 </head>
 <body>
-    <h1>office attendence checker</h1>
-    <label for="employ">enter your name </label>
-    <input type="text" id="employ">
-
-    <button onclick="">mark attendence</button>
+    <h1>Attendance Sheet</h1>
+    <div id="attendanceList">
+        <!-- Attendance list will be displayed here -->
+    </div>
+    <input type="text" id="nameInput" placeholder="Enter your name">
+    <button onclick="markAttendance()">Mark Attendance</button>
+    <div id="attendanceList">
+        <!-- Attendance list will be displayed here -->
+    </div>
     <script src="app.js"></script>
 </body>
 </html>
