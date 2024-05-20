@@ -1,0 +1,52 @@
+body{
+    background-color: aqua;
+}
+
+#divcenter{
+    text-align: center;
+    margin-bottom: 70px;
+    background-color: white;
+}
+.container{
+    width: 500px;
+    border: 2px solid black;
+    height: 100%;
+    padding:  50px 50px 50px 50px;
+    background-color: white;
+
+}
+#h2{
+    text-align: center;
+    padding:  20px 20px 20px 20px;
+}
+#para{
+    padding:  50px 50px 50px 50px;
+
+}
+
+#bold{
+    padding:  10px 10px 10px 10px; 
+}
+#italic{
+    padding:  10px 10px 10px 10px; 
+}
+#underline{
+    padding:  10px 10px 10px 10px; 
+}
+#select{
+    padding:  10px 10px 10px 10px; 
+
+}
+#heading{
+    background-color: red;
+    color: aqua;
+    border-radius: 10px;
+}
+#subheading{
+    background-color: red;
+    color: aqua;
+    border-radius: 10px;
+}
+/* option[selected] {
+    background-color: yellow; /* You can change this to any color you prefer */
+  
