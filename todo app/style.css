@@ -27,3 +27,8 @@ background-position: center;
     border-radius: 25px;
     margin: 10px;
 }
+#historydiv{
+    color: black;
+    text-align: center;
+    font-size: 25px;
+font-weight: bold;}
