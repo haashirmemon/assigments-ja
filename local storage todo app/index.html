@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>local storage</title>
+</head>
+<body>
+    <center>
+        
+    <div id="login_container">
+        <h1>Login Form</h1>
+        <input type="email" placeholder="Email" id="email" />
+        <input type="password" placeholder="Password" id="password" />
+        <button onclick="loginUser()">login</button>
+      </div>
+  
+      <div id="home_container">
+        <h1>Welcome  todo app<span id="user_email"></span></h1>
+  
+        <input type="text" name="" id="todo_input" placeholder="Add todo" />
+        <button onclick="addTodo()">add todo</button>
+        <button onclick="logout()">logout</button>
+  
+        <ul id="list">
+  
+        </ul>
+      </div>
+    
+    </center>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
