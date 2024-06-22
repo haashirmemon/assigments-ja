@@ -126,6 +126,7 @@ let products = [
 ]
 var search_input= document.getElementById("search")
 var category= document.getElementById("category")
+var prices= document.getElementById("prices")
 category.addEventListener("change",function () {
     console.log(this.value);
     var categorywiseproducts = products.filter((data)=> data.category ==this.value)
@@ -139,11 +140,24 @@ category.addEventListener("change",function () {
          data.image);
  
          container.innerHTML += ele
-
-    
      })})
-
-
+     prices.addEventListener("change",function () {
+      console.log(this.value);
+      var priceswiseproducts = products.filter((data)=> data.price > this.value)
+      container.innerHTML = ""
+      priceswiseproducts.forEach((data,ind) =>{
+       var ele = createelement(
+           data.title,
+           data.category, 
+           data.price,
+           data.description?.slice(0 ,  10000),
+           data.image);
+   
+           container.innerHTML += ele
+  
+      return ele
+       })})
+console.log(prices);
 
 search_input.addEventListener("click",function (){
     console.log(this.value);
